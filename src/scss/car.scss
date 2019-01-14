@@ -1,0 +1,44 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+
+main{
+    width: 100%;
+    background-color: #f1f2ed;
+}
+.black{width: 100%;height:16px;background-color: #000000;}
+
+#box{width: 1441px;margin: 0 auto;}
+
+.title{width: 1441px;height: 51px;border-bottom: 2px dashed #64686B;}
+.title h1{text-align: center;line-height: 51px;font-size: 28px;}
+table {margin:0 auto;margin-top: 40px;}
+table thead th {font-size: 19px;color: #666666;}
+table thead th:nth-of-type(2){padding-left: 165px;}
+table thead th:nth-of-type(3){padding-left: 264px;}
+table thead th:nth-of-type(4){padding-left: 89px;}
+table thead th:nth-of-type(5){padding-left: 85px;}
+table thead th:nth-of-type(6){padding-left: 137px;}
+table input[type="text"]{ display:none; height:24px; width:60px; border:1px solid #ccc;}
+tbody tr td:first-child{text-align: center;}
+tbody tr td:nth-child(2){padding-left: 168px;}
+tbody tr td:nth-child(3){padding-left: 317px;}
+tbody tr td:nth-child(4){padding-left: 140px;}
+tbody tr td:nth-child(5){padding-left: 138px;}
+tbody tr td:nth-child(6){padding-left: 155px;}
+table thead th{border-bottom: 1px solid black;width: 1141px;height: 33px;}
+table tbody td{margin-top: 21px;padding-top: 15px;}
+tfoot{float: right;margin-right: -1205px;margin-top: 25px;}
+tfoot tr td{font-size: 22px;color:#666666;}
+.editBtn{ color:#666}
+.delBtn{ color:red}
+.okBtn,.cancelBtn{ display:none}
+.edit span{ display:none}
+.edit input[type="text"]{ display:inline-block}
+.edit .editBtn,.edit .delBtn{ display:none}
+.edit .okBtn,.edit .cancelBtn{ display:inline}
+.shoping{width: 1441px;height: 46px;margin-top: 25px;padding-bottom:30px ;}
+.shoping a:nth-child(1){font-weight:bold;float:left;display: block;width: 1230px;height: 46px;line-height: 46px;text-align: right;color: white;background-color: #000000;}
+.shoping span{font-weight:bold;float:right;display: block;width: 211px;height: 46px;line-height: 46px;text-align: center;color: white;background-color: #C71A2D;}
+#Settlement{cursor:pointer}

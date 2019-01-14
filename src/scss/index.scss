@@ -1,0 +1,202 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+main {
+    width: 100%;
+    position: relative;
+}
+
+.black {
+    height: 16px;
+    background-color: #000000;
+    width: 100%;
+}
+
+.banner {
+    width: 1441px;
+    height: 600px;
+    background: url(/static/images/621e2994d3994b15d77beb9e48b251d1f0682269.jpg);
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+#Rotation-chart{
+    width: 1441px;
+    height: 705px;
+    margin:0 auto;
+    margin-top: 22px;
+}
+
+
+
+#Rotation{
+    width: 1441px;
+    height: 705px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#swiper-wrapper {
+    height: 705px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+#swiper-wrapper li {
+    width: 464px;
+    height: 705px;
+    float: left;
+    padding-right: 24px;
+}
+
+
+#swiper-wrapper li .img {
+    width: 464px;
+    height: 465px;
+}
+
+#swiper-wrapper li .info {
+    width: 464px;
+    height: 241px;
+}
+
+#swiper-wrapper li .info h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+}
+
+#Rotation #swiper-wrapper li .info span {
+    width: 180px;
+    height: 48px;
+    background-color: #2b2b2b;
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    margin: 20px auto;
+}
+
+#Rotation #swiper-wrapper li .info span a {
+    color: white;
+}
+
+#goNext {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    height: 40px;
+    line-height: 32px;
+    text-align: center;
+    width: 40px;
+    font-size: 40px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+#goPrev {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    height: 40px;
+    line-height: 32px;
+    text-align: center;
+    width: 40px;
+    font-size: 40px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.shoes{
+    width:100%;
+    height: 279px;
+    margin-bottom: 24px;
+    
+}
+
+.shoes-img{
+    width: 1443px;
+    height: 279px;
+    margin: 0 auto;
+}
+
+
+
+.shoes-img :nth-of-type(1) dl{
+    background:url(/static/images/8b9a3592849cc556464a86495b8a04c48808d9d4.jpg);
+    
+}
+
+.shoes-img :nth-of-type(2) dl{
+    background:url(/static/images/0774749791c211973dc23acc8877df4ef0f444c6.jpg);
+    margin: 0 30px;
+}
+
+.shoes-img :nth-of-type(3) dl{
+    background:url(/static/images/9cea2f1fc1a867e5ded53ad48022dfa388192d33.jpg)
+}
+
+.shoes-img dl{
+     width: 461px;
+    height: 279px;
+    float: left;
+}
+
+.shoes-img a dl dt{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    padding-top: 112px;
+}
+
+.shoes-img a dl dd{
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+
+.Latest-activities{
+    width:100%;
+    height: 1243px;
+    background-color: #f1f2ed;
+     margin-bottom: 30px;
+}
+
+.Latest-activities .title{width: 1443px;height: 132px;margin: 0 auto;}
+
+.Latest-activities .title h1{text-align: center;line-height: 132px;font-size: 34px;}
+
+.Latest-activities .activities{
+    width: 1443px;
+    height: 1083px;
+    margin: 0 auto;
+}
+.Latest-activities .activities .box{width: 711px;height: 526px;float: left;}
+
+.Latest-activities .activities .box:nth-child(1) {margin-right: 21px;}
+.Latest-activities .activities .box:nth-child(3) {margin-right: 21px;}
+.Latest-activities .activities .img{width:711px;height: 400px;}
+.Latest-activities .activities .info{width: 711px;height: 96px;}
+.Latest-activities .activities .info h1{font-size: 19px;text-align: center;line-height: 59px;}
+.Latest-activities .activities .info span{text-align: center;display: block;}
+.Latest-activities .activities .info span a{color: black;font-size: 15px;}
+
+.Latest-activities .activities .box:hover .info{
+    background-color: black;
+    
+}
+.Latest-activities .activities .box:hover h1{
+    color: white;
+}
+.Latest-activities .activities .box:hover a{
+    color: white;
+}
+
+.sidebar{width: 62px;height: 183px;position: fixed;right: 5px;top: 555px;}
+.sidebar span{display: block;width: 60px;height: 60px;background-color: #000000;margin-bottom: 1px;}
+.sidebar span a{font-size: 14px;color: white;text-align: center;display: block;padding-top: 40px;}
+.sidebar span:nth-of-type(1) {background: url(/static/images/erji.png)#c8192d no-repeat 10px 4px;}
+.sidebar span:nth-of-type(2) {background: url(/static/images/question.png)#000000 no-repeat 10px 4px;}
+.sidebar span:nth-of-type(3) {background: url(/static/images/xs.png)#000000 no-repeat 18px 7px;}
+.sidebar span:nth-of-type(2) a{font-size: 13px;}

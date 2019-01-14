@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Vans注册页面</title>
+		<link rel="stylesheet" type="text/css" href="/css/register.css"/>
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<div class="black"></div>
+			
+			
+			
+			<form>
+				<h1>用户注册</h1>
+		<label><input type="text" name="username" id="username" placeholder="请输入11位手机号"></label>
+		<label><input type="password" name="password" id="password" placeholder="8-20个字母、数字或符号组合，请不要输入特殊字符"></label>
+		<label><input type="password" name="password2" placeholder="再次填写密码"></label>
+		<label><input type="text"  id="message"  ><button type="button" class="message">获取短信验证码</button></label>
+		<button type="button" id="regBtn">立即注册</button>
+		<label><input type="checkbox" class="rememberMe" checked="checked"><p>我已阅读并同意VANS的隐私政策和使用条款</p></label>
+			</form>
+			
+			
+			<div class="sidebar">
+				<span><a href="##">客服</a></span>
+				<span><a href="##">常见问题</a></span>
+				<span><a href="#">置顶</a></span>
+			</div>
+		</main>
+		<footer></footer>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/register.js"></script>
+	</body>
+</html>

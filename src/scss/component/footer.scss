@@ -1,0 +1,35 @@
+#footer{width: 100%;height: 334px; background-color: #1c1c1c;}
+.footer{width: 1375px;height: 334px;margin: 0 auto;}
+.footer .footer-left{height: 220px;width:250px;float: left;margin-top:35px ;}
+.footer .footer-left h2{font-size: 19px;color: white;}
+.footer .footer-left ul{width: 110px;height: 169px;margin-top: 34px;float: left;}
+.footer .footer-left ul li{list-style: none;margin-top: 10px;}
+.footer .footer-left ul li a{text-decoration: none;font-size:14px;color: #589bc6;}
+.footer .footer-left ol{width: 85px;height: 115px;margin-top: 34px;float:right ;}
+.footer .footer-left ol li{list-style: none;margin-top: 10px;}
+.footer .footer-left ol li a{text-decoration: none;font-size:14px;color: #589bc6;}
+.footer .footer-left a:hover{color: #c71a2d;}
+.footer .footer-left ul li:nth-child(1) a{color: white;}
+.footer .footer-left ol li:nth-child(1) a{color: white;}
+.footer .footer-center{width: 187px;height: 178px;float: left;margin-left: 275px;margin-top: 35px;}
+.footer .footer-center dl{width: 187px;height: 178px;}
+.footer .footer-center dl h2{font-size: 19px;color: white;}
+.footer .footer-center dl dd{font-size: 13px;color: #919191;margin-top: 15px;}
+.footer .footer-center dl dd a{color: #589BC6;}
+.footer .footer-center dl dd a:hover{color: #c71a2d;}
+.footer .footer-center dl dt{font-size: 14px;color: white;margin-top: 35px;}
+.footer .footer-right{widows: 262px;height: 267px;float: right;margin-top: 30px;border-left: 1px solid #626262;}
+.footer .footer-right h3{font-size: 19px;color: white;margin-top: 6px;margin-left: 68px;}
+.footer .footer-right ul{width: 231px;height: 37px;margin-top: 31px;margin-left: 40px;}
+.footer .footer-right ul li{margin-right: 10px;width: 36px;height: 36px;float: left;cursor:pointer;}
+.footer .footer-right ul li span{width:36px;height: 36px;display: block;}
+.footer .footer-right ul li:nth-of-type(1) span{background: url(/static/images/weixin.png)#64686b no-repeat 4px 6px;}
+.footer .footer-right ul li:nth-of-type(2) span{background: url(/static/images/weibo.png)#64686b no-repeat 4px 6px;}
+.footer .footer-right ul li:nth-of-type(3) span{background: url(/static/images/n.png)#64686b no-repeat 4px 6px;}
+.footer .footer-right ul li:nth-of-type(4) span{background: url(/static/images/tentc.png)#64686b no-repeat 4px 6px;}
+.footer .footer-right ul li:nth-of-type(5) span{background: url(/static/images/box.png)#64686b no-repeat 3px 7px;}
+.footer .footer-right ul li:nth-of-type(1) span:hover{background: url(/static/images/greenweixin.png) no-repeat;background-size: 100%;}
+.footer .footer-right ul li:nth-of-type(2) span:hover{background: url(/static/images/redweibo.png) no-repeat;background-size: 100%;}
+.footer .footer-right ul li:nth-of-type(3) span:hover{background: url(/static/images/yellown.png) no-repeat;background-size: 100%;}
+.footer .footer-right ul li:nth-of-type(4) span:hover{background: url(/static/images/buletenc.png) no-repeat;background-size: 100%;}
+.footer .footer-right ul li:nth-of-type(5) span:hover{background: url(/static/images/ppbox.png) no-repeat;background-size: 100%;}

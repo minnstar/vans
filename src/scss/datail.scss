@@ -1,0 +1,301 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+main {
+    width: 100%;
+    background-color: #f1f2ed;
+}
+
+.black {
+    width: 100%;
+    height: 16px;
+    background-color: #000000;
+}
+
+.nav {
+    width: 1442px;
+    height: 86px;
+    border-bottom: 1px dashed #919191;
+    margin: 0 auto;
+}
+
+.nav ul {}
+
+.nav li {
+    font-weight: bold;
+    float: left;
+    line-height: 86px;
+    padding-right: 65px;
+    background: url(/static/images/bulesolid.png)no-repeat 59px;
+    color: #589BC6;
+}
+
+.nav li:hover {
+    color: #C71A2D;
+}
+
+.nav ul li:nth-child(3) {
+    background: url(/static/images/bulesolid.png)no-repeat 163px;
+}
+
+.datail {
+    width: 1442px;
+    height: 1080px;
+    margin-top: 27px;
+    margin: 0 auto;
+}
+
+.datail .img {
+    width: 740px;
+    height: 740px;
+    margin-top: 20px;
+    float: left;
+}
+
+.list {
+    width: 669px;
+    height: 555px;
+    float: right;
+    margin-top: 30px;
+}
+
+.list .title {
+    width: 669px;
+    height: 110px;
+    border-bottom: 1px dashed #666666;
+}
+
+.list .title h1 {
+    font-size: 19px;
+}
+
+.list .title span {
+    color: #C71A2D;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.list .color {
+    width: 669px;
+    height: 138px;
+    border-bottom: 1px dashed #666666;
+}
+
+.list .color h1 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.list .color span {
+    background-size: 100%;
+    border: 1px solid #C8192D;
+    width: 67px;
+    height: 67px;
+    display: block;
+    margin-top: 13px;
+}
+
+.list .color img {
+    width: 67px;
+    height: 67px;
+}
+
+.list .shoesize {
+    width: 669px;
+    height: 95px;
+    border-bottom: 1px dashed #666666;
+}
+
+.list .shoesize h1 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#tabs{
+    width: 415px;
+    height: 28px;
+    margin-top: 12px;
+}
+
+#tabs li {
+    margin-right: 10px;
+    width: 39px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    font-weight: bold;
+    color: #666666;
+    display: block;
+    border: 1px solid #666666;
+    text-align: center;
+}
+
+#tabs .bc {
+    background-color: #C71A2D;
+    color: white;
+}
+
+.list .amount {
+    width: 669px;
+    height: 73px;
+    border-bottom: 1px dashed #666666;
+}
+
+.list .amount h1 {
+    float: left;
+    font-size: 16px;
+    margin: 25px;
+}
+
+.list .amount p {
+    float: left;
+    color: #666;
+    margin-top: 24px;
+    margin-left: 5px;
+}
+
+.list .amount span {
+    display: block;
+    border: 1px solid #666666;
+    width: 52px;
+    height: 27px;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+}
+
+.list .btn {
+    width: 669px;
+    height: 83px;
+    border-bottom: 1px dashed #666666;
+}
+
+.list .btn #getcar {
+    width: 170px;
+    margin-top: 24px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.list .btn #settlement a{
+    display: block;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #C71A2D;
+    color: white;
+    text-align: center;
+}
+
+.list .mail {
+    width: 669px;
+    height: 64px;
+    border-bottom: 1px dashed #666666;
+}
+
+.list .mail ul {
+    width: 403px;
+    height: 65px;
+}
+
+.list .mail ul li {
+    width: 200px;
+    height: 41px;
+    float: left;
+    margin-top: 19px;
+}
+
+.list .mail ul li:nth-child(1) {
+    background: url(/static/images/sfby.png)no-repeat 40px -19px;
+    border-right: 1px dashed #626262;
+}
+
+.list .mail ul li:nth-child(2) {
+    background: url(/static/images/tenday.png)no-repeat 13px -3px;
+}
+
+.datail #tab {
+    width: 624px;
+    height: 90px;
+    float: left;
+    margin-left: -677px;
+    margin-top: 789px;
+}
+
+.datail #tab li {
+    float: left;
+    margin-right: 34px;
+}
+
+.datail #tab .bc{border:2px solid #C8192D;}
+
+.datail #tab li img {
+    width: 90px;
+    height: 90px;
+}
+
+.twopic {
+    width: 790px;
+    margin: 0 auto;
+}
+
+.didlike {
+    width: 100%;
+    height: 496px;
+    background-color: #FFFFFF;
+}
+
+.didlike .like {
+    width: 1017px;
+    height: 496px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.didlike .like span:nth-of-type(1) {
+    position: relative;
+    background: url(/static/images/ilike.png) no-repeat -2px -4px;
+    display: block;
+    left: 437px;
+    top: -53px;
+    width: 150px;
+    height: 102px;
+}
+
+.didlike .like ul {
+    width: 1017px;
+    height: 417px;
+    overflow: hidden;
+    float: left;
+    margin-top: -102px;
+}
+
+.didlike .like ul li {
+    
+    width: 1017px;
+    height: 417px;
+    
+}
+
+.didlike .like ul li img{
+    width: 254px;
+    height: 285px;
+    float: left;
+    margin-top: 65px;
+    }
+
+#another {
+    display: block;
+    width: 163px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 316px;
+    margin-left: 428px;
+}
